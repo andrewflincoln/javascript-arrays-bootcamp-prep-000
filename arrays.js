@@ -13,8 +13,8 @@ function addElementToBeginningOfArray(array, newElement) {
   return newAr
 }
 
-function destructivelyAddElementToBeginningOfArray(array, newElement) {
-  array = [newElement, ...array]
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array = [element, ...array]
   return array
 }
 
